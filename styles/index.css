@@ -1,0 +1,25 @@
+body {
+    background-color: antiquewhite;
+    margin: auto;
+    text-align: center;
+}
+
+.granate {
+    max-width: 60%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.text {
+    position: absolute;
+    font-size: 35px;
+    color: antiquewhite;
+    z-index: 1;
+    text-align: center;
+    right:50px;
+    top: 30px;
+    stroke: black;
+    
+    
+
+}
