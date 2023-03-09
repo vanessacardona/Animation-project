@@ -2,6 +2,7 @@ body {
     background-color: antiquewhite;
     margin: auto;
     text-align: center;
+    height: 100vh;
 }
 
 .granate {
@@ -9,17 +10,38 @@ body {
     height: auto;
     border-radius: 15px;
     margin-top: 50px;
+    border: solid 10px;
+    border-color: rgb(10, 82, 10);
+    animation-name: image;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 .text {
-    position: absolute;
-    font-size: 35px;
-    color: antiquewhite;
-    z-index: 1;
-    text-align: center;
-    right:50px;
-    top: 30px;
-    stroke: black;
-    
-    
+    font-family: 'Benne';
+    font-size: 44px;
+    color: rgb(114, 5, 41);
+}
 
+.baby-name {
+    font-family: 'Benne';
+    font-size: 33px;
+    color: rgb(5, 64, 117);
+    text-transform:uppercase;
+
+ 
+}
+
+.baby-name:hover {
+    cursor: pointer;
+    font-size: 44px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+ 
+}
+
+@keyframes image {
+    0% {border-color: rgb(14, 154, 14);}
+    25% {border-color: rgb(157, 221, 61);}
+    100% {border-color: rgb(215, 109, 51);}
 }
